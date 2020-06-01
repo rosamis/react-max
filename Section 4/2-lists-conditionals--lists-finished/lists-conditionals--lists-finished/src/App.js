@@ -22,7 +22,7 @@ class App extends Component {
       ...this.state.persons[personIndex]
     };
 
-    // const person = Object.assign({}, this.state.persons[personIndex]);
+    // const person = Object.assign({}, this.state.persons[personIndex]); alternative
 
     person.name = event.target.value;
 
@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   deletePersonHandler = (personIndex) => {
-    // to imutable element: create a copy, change the copy and then update the original element
+    // to imutable state: create a copy, change the copy and then update the original element
     // const persons = this.state.persons; // pointer to the original obj 
     // const persons = this.state.persons.slice(); // copy
     const persons = [...this.state.persons]; // copy
