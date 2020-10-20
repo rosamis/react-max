@@ -91,6 +91,7 @@ class App extends Component {
     }
 
     return (
+      // to media radium works we need to wrap entire app in root component 
       <StyleRoot>
         <div className="App">
           <h1>Hi, I'm a React App</h1>

@@ -32,9 +32,9 @@ class App extends Component {
     // pass the index as key it's not a good practice
     const charList = this.state.userInput.split('').map((ch, index) => {
       return <Char 
-      letter={ch} 
-      key={index} 
-      clicked={() => this.deleteCharHandler(index)} />;
+        letter={ch} 
+        key={index} 
+        clicked={() => this.deleteCharHandler(index)} />;
     })
     return (
       <div className="App">
