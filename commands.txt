@@ -18,3 +18,8 @@ if react-scripts < 1.1.5:
                     (changes name class that show html)
 else:
     rename Name.css to Name.module.css
+
+errors:
+Something doesn't work and haven't message errors in console
+    Open chrome dev tools, Sources, original folder, tag line clicking at number line and will see values there
+Install extension react developer tools at google chrome

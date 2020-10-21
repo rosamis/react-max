@@ -16,6 +16,8 @@ class App extends Component {
 
   nameChangedHandler = (event, id) => {
     const personIndex = this.state.persons.findIndex(p => {
+      // without error message. Open chrome dev tools, Sources, original folder, tag line clicking at number line and will see values there
+      // return p.userId === id; // will get logical error because p haven't userId propert
       return p.id === id;
     });
 
@@ -24,7 +26,7 @@ class App extends Component {
     };
 
     // const person = Object.assign({}, this.state.persons[personIndex]);
-
+    // person.name = event.input.value; // will get syntax error 
     person.name = event.target.value;
 
     const persons = [...this.state.persons];
