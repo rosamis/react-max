@@ -1,0 +1,17 @@
+install nodejs too
+sudo npm install create-react-app -g
+create-react-app react-complete-guide --scripts-version 1.1.5
+npm start
+
+
+
+npm install
+
+if react-scripts < 1.1.5:
+    npm run eject
+    config/webpack.config.dev.js and config/webpack.config.prod.js:
+        test: /\.css$/,
+                use: [
+                    ...
+                    modules: true,
+                    localIdentName: '[name]__[local]__[hash:base64:5]'
