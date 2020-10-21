@@ -15,3 +15,6 @@ if react-scripts < 1.1.5:
                     ...
                     modules: true,
                     localIdentName: '[name]__[local]__[hash:base64:5]'
+                    (changes name class that show html)
+else:
+    rename Name.css to Name.module.css
