@@ -1,4 +1,4 @@
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Aux/Aux';
 import Burger from '../../components/Burger/Burger';
 import React, { Component } from 'react';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
