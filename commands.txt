@@ -25,3 +25,11 @@ Something doesn't work and haven't message errors in console
 Install extension react developer tools at google chrome
 
 npm install --save prop-types
+
+npm install --save redux react-redux
+
+npm install --save redux-thunk
+
+Install redux devtools extension at chrome 
+
+Configure using Advanced store setup (https://github.com/zalmoxisus/redux-devtools-extension#installation)
