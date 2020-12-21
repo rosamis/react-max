@@ -33,3 +33,6 @@ npm install --save redux-thunk
 Install redux devtools extension at chrome 
 
 Configure using Advanced store setup (https://github.com/zalmoxisus/redux-devtools-extension#installation)
+
+npm install --save enzyme react-test-renderer enzyme-adapter-react
+
